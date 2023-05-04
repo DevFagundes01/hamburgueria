@@ -1,3 +1,4 @@
+/*
 import React from "react";
 
 import { Button } from "./styles";
@@ -7,3 +8,4 @@ function myButton({children, isGrey}) {
 }
 
 export default myButton
+*/

@@ -5,15 +5,16 @@ import axios from "axios";
 
 import burger from '../../assets/burger 1.png'
 
+import Div1 from "../../components/Div1";
 import  H1  from "../../components/Title";
-import Button from "../../components/Button";
+//import Button from "../../components/Button";
 
 import {
   Div,
-  Div1,
   Image,
   Inputlabel,
   Input,
+  Button,
 } from "./styles"
 
 const App = () => {

@@ -6,16 +6,17 @@ import axios from "axios";
 import burger from '../../assets/bag.png'
 import trash from '../../assets/trash.svg'
 
+import Div1 from "../../components/Div1";
 import H1 from "../../components/Title";
-import Button from "../../components/Button";
+//import Button from "../../components/Button";
 
 import {
   Div,
-  Div1,
   Image,
   Li,
   Div2,
   Div3,
+  Button,
 } from "./styles"
 
 const Order = () => {
