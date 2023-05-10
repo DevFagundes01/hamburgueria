@@ -22,10 +22,11 @@ import {
 const Order = () => {
   const [orders, setOrders] = useState([])
   const navigate = useNavigate()
+  const baseUrl = "https://rotas-pedidos.vercel.app"
 
 useEffect(() => {
   async function fetchOrders() {
-    const {data: newOrders} = await axios.get("http://localhost:3001/order")
+    const {data: newOrders} = await axios.get(`${baseUrl}/order`)
 
     setOrders(newOrders)
   }
@@ -35,7 +36,7 @@ useEffect(() => {
 
 
   async function deleteOrder(orderId) {
-    await axios.delete(`http://localhost:3001/order/${orderId}`)
+    await axios.delete(`${baseUrl}/order/${orderId}`)
     const newOrders = orders.filter((order) => order.id !== orderId)
     
     setOrders(newOrders)

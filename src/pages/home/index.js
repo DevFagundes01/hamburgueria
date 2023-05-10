@@ -20,12 +20,12 @@ import {
 const App = () => {
   const [orders, setOrders] = useState([])
   const navigate = useNavigate()
-
   const inputOrder = useRef()
   const inputName = useRef()
+  const baseUrl = "https://rotas-pedidos.vercel.app"
 
   async function addNewOrder() {
-    const {data: newOrder} = await axios.post("http://localhost:3001/order", {
+    const {data: newOrder} = await axios.post(`${baseUrl}/order`, {
       order: inputOrder.current.value, 
       name: inputName.current.value,
     })
