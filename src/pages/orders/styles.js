@@ -16,7 +16,7 @@ export const Image = styled.img`
 export const Li = styled.li`
     color: white;
     display: flex;
-    margin-left: 40px;
+    margin-left: 36px;
     align-items: center;
     justify-content: center;
     width: 342px;
@@ -32,7 +32,7 @@ export const Li = styled.li`
     }
 `
 export const Div2 = styled.div`
-    width: 18vw;
+    width: 14vw;
     display: flex;
     flex-direction: column;
 `
