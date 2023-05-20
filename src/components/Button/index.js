@@ -1,11 +1,10 @@
-/*
+
 import React from "react";
 
 import { Button } from "./styles";
-function myButton({children, isGrey}) {
-    console.log(isGrey)
-    return <Button isGrey={isGrey}>{children}</Button>
+function myButton({children, ...props }) {
+
+    return <Button {...props}>{children}</Button>
 }
 
 export default myButton
-*/

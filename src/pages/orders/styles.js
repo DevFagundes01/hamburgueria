@@ -16,7 +16,7 @@ export const Image = styled.img`
 export const Li = styled.li`
     color: white;
     display: flex;
-    margin-left: 40px;
+    margin-left: 36px;
     align-items: center;
     justify-content: center;
     width: 342px;
@@ -32,27 +32,9 @@ export const Li = styled.li`
     }
 `
 export const Div2 = styled.div`
-    width: 18vw;
+    width: 14vw;
     display: flex;
     flex-direction: column;
 `
 export const Div3 = styled.div`
 `
-export const Button = styled.button`
-    width: 342px;
-    height: 68px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    background: rgba(255, 255, 255, 0.14);
-    color: white;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 2px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    &:hover{opacity:0.8}
-    &:active{opacity:0.4;}
-`;
