@@ -32,7 +32,7 @@ export const Li = styled.li`
     }
 `
 export const Div2 = styled.div`
-    width: 14vw;
+    width: 75%;
     display: flex;
     flex-direction: column;
 `
